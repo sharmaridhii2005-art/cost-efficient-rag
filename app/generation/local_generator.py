@@ -67,13 +67,12 @@ Answer:"""
 
         prompt_tokens = int(inputs["input_ids"].shape[1])
         completion_tokens = int(outputs.shape[1])
-
         return {
-            "answer": answer,
-            "model": self.model_name,
-            "latency_ms": round(latency_ms, 2),
-            "prompt_tokens": prompt_tokens,
-            "completion_tokens": completion_tokens,
-            "total_tokens": prompt_tokens + completion_tokens,
-            "cost_usd": 0.0
-        }
+    "answer": answer,
+    "model": self.model_name,
+    "latency_ms": round(latency_ms, 2),
+    "prompt_tokens": prompt_tokens,
+    "completion_tokens": completion_tokens,
+    "total_tokens": prompt_tokens + completion_tokens,
+    "cost_usd": 0.0
+}
