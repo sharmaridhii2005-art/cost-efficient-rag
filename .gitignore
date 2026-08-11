@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables / secrets
+.env
+
+# ChromaDB generated database
+chroma_db/
+
+# Local model/cache
+.cache/
+huggingface/
+models/
+
+# Generated evaluation outputs
+evaluation/results/
+
+# Generated reports
+reports/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

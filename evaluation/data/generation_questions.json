@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is RAG?",
+        "reference_answer": "RAG combines information retrieval with language generation by retrieving relevant information from an external knowledge base and using it to generate an answer."
+    },
+    {
+        "question": "What are the main stages of a RAG system?",
+        "reference_answer": "The main stages are document ingestion, chunking, embedding generation, vector storage, retrieval, and answer generation."
+    },
+    {
+        "question": "What are embeddings?",
+        "reference_answer": "Embeddings are numerical vector representations of text where semantically similar texts have nearby vectors."
+    },
+    {
+        "question": "Why is chunking important?",
+        "reference_answer": "Chunking divides documents into smaller pieces so the system can efficiently retrieve only the portions relevant to a user's question."
+    },
+    {
+        "question": "How does a vector database work?",
+        "reference_answer": "A vector database stores vector embeddings and searches them using similarity to find documents that are semantically similar to a query."
+    },
+    {
+        "question": "How can RAG reduce cost?",
+        "reference_answer": "RAG can reduce cost by retrieving only relevant information and reducing the amount of context and computation needed to generate an answer."
+    }
+]

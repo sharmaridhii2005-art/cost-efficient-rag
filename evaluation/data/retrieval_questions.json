@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What is RAG?",
+        "expected_sources": ["sample.txt", "rag_guide.txt"]
+    },
+    {
+        "question": "What are the main stages of a RAG system?",
+        "expected_sources": ["sample.txt", "rag_guide.txt"]
+    },
+    {
+        "question": "What are embeddings?",
+        "expected_sources": ["rag_guide.txt"]
+    },
+    {
+        "question": "Why is chunking important?",
+        "expected_sources": ["rag_guide.txt"]
+    },
+    {
+        "question": "How does a vector database work?",
+        "expected_sources": ["rag_guide.txt"]
+    },
+    {
+        "question": "How can RAG reduce cost?",
+        "expected_sources": ["rag_guide.txt"]
+    }
+]

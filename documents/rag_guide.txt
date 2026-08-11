@@ -1,0 +1,43 @@
+Retrieval Augmented Generation (RAG)
+
+Retrieval Augmented Generation is an architecture that combines information retrieval with language generation. Instead of relying only on information stored inside a language model, a RAG system retrieves relevant information from an external knowledge base.
+
+Document Ingestion
+
+The first stage of a RAG pipeline is document ingestion. Documents can come from text files, PDFs, web pages, databases, or other sources. The ingestion process loads the available documents and prepares them for further processing.
+
+Chunking
+
+Large documents are divided into smaller pieces called chunks. Chunking makes retrieval more precise because the system can retrieve only the portions of a document that are relevant to a user's question.
+
+Embeddings
+
+An embedding model converts text into numerical vectors. Texts with similar meanings tend to have vectors that are close to each other in the embedding space. This allows semantic search instead of relying only on keyword matching.
+
+Vector Database
+
+The generated embeddings are stored in a vector database. Examples of vector databases include ChromaDB, FAISS, Pinecone, and Weaviate. A vector database allows the system to efficiently search for documents that are semantically similar to a query.
+
+Retrieval
+
+When a user asks a question, the question is converted into an embedding using the same embedding model. The vector database then searches for the most relevant document chunks. The highest-ranked chunks are returned as context.
+
+Answer Generation
+
+The retrieved context is passed to a language model along with the user's question. The language model uses the retrieved information to generate an answer. This helps the system answer questions using information that may not have been included in the model's original training data.
+
+Advantages of RAG
+
+RAG can reduce hallucinations by grounding answers in retrieved information. It can also make it easier to update a knowledge base without retraining the language model. Another advantage is that organizations can keep their own documents in an external knowledge base.
+
+Cost Efficient RAG
+
+A cost-efficient RAG system attempts to reduce the computational and API cost of answering questions while maintaining good retrieval and answer quality. Important techniques include using smaller embedding models, retrieving only the necessary number of chunks, caching repeated queries, reducing unnecessary context, and measuring latency and token usage.
+
+Evaluation
+
+A RAG system should be evaluated using retrieval quality, answer quality, latency, and cost. Retrieval metrics can measure whether relevant documents are returned. Answer evaluation can measure correctness and relevance. Cost evaluation can track embedding usage, language model tokens, and API expenses.
+
+End-to-End Pipeline
+
+A complete RAG pipeline consists of document ingestion, text cleaning, chunking, embedding generation, vector storage, query embedding, similarity search, context construction, and answer generation.
