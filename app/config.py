@@ -29,3 +29,6 @@ TOP_K = 1
 # Maximum ChromaDB distance accepted for retrieval.
 # Larger distances indicate weaker semantic matches.
 RETRIEVAL_DISTANCE_THRESHOLD = 1.2
+# Number of document chunks retrieved for each query.
+# Selected through empirical TOP-K benchmarking.
+TOP_K = 2
