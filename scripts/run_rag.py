@@ -1,3 +1,4 @@
+
 from app.retrieval.retriever import Retriever
 from app.generation.local_generator import LocalGenerator
 
@@ -42,12 +43,27 @@ def main():
     print("RETRIEVED CONTEXT")
     print("=" * 70)
 
-    for i, (context, distance) in enumerate(zip(contexts, distances)):
-        print(f"\nResult {i + 1}")
-        print(f"Source: {context['source']}")
-        print(f"Chunk: {context['chunk_index']}")
-        print(f"Distance: {distance}")
-        print(f"Text: {context['text']}")
+    if contexts:
+        for i, (context, distance) in enumerate(
+            zip(contexts, distances)
+        ):
+            print(f"\nResult {i + 1}")
+            print(f"Source: {context['source']}")
+            print(f"Chunk: {context['chunk_index']}")
+            print(f"Distance: {distance}")
+            print(f"Text: {context['text']}")
+    else:
+        print("\nNo relevant context found.")
+
+        print("\n" + "=" * 70)
+        print("FINAL ANSWER")
+        print("=" * 70)
+
+        print(
+            "I don't have enough information in the provided documents."
+        )
+
+        return
 
     # ---------------------------------------------------------
     # 2. LOCAL GENERATION
