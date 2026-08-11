@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "top_k": 1,
+      "prompt_tokens": 216.33,
+      "total_tokens": 249.5,
+      "generation_latency_ms": 973.8,
+      "total_latency_ms": 1010.88,
+      "quality": 0.75,
+      "perfect_answers": 4,
+      "quality_rate": 0.667,
+      "semantic_similarity": 0.6939,
+      "cost_usd": 0.0
+    },
+    {
+      "top_k": 3,
+      "prompt_tokens": 427.5,
+      "total_tokens": 461.17,
+      "generation_latency_ms": 1136.48,
+      "total_latency_ms": 1157.03,
+      "quality": 0.667,
+      "perfect_answers": 3,
+      "quality_rate": 0.5,
+      "semantic_similarity": 0.6721,
+      "cost_usd": 0.0
+    }
+  ],
+  "recommended_configuration": {
+    "top_k": 1,
+    "prompt_tokens": 216.33,
+    "total_tokens": 249.5,
+    "generation_latency_ms": 973.8,
+    "total_latency_ms": 1010.88,
+    "quality": 0.75,
+    "perfect_answers": 4,
+    "quality_rate": 0.667,
+    "semantic_similarity": 0.6939,
+    "cost_usd": 0.0
+  }
+}

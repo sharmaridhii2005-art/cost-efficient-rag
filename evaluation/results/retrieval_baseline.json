@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "questions": 6,
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "average_latency_ms": 26.8
+  },
+  "results": [
+    {
+      "question": "What is RAG?",
+      "expected_sources": [
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        0.6923826336860657,
+        0.9102311134338379,
+        0.9702415466308594
+      ],
+      "latency_ms": 72.88,
+      "hit_at_1": true,
+      "hit_at_3": true
+    },
+    {
+      "question": "What are the main stages of a RAG system?",
+      "expected_sources": [
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        1.009368896484375,
+        1.1486669778823853,
+        1.1591178178787231
+      ],
+      "latency_ms": 20.46,
+      "hit_at_1": true,
+      "hit_at_3": true
+    },
+    {
+      "question": "What are embeddings?",
+      "expected_sources": [
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        0.9378268718719482,
+        0.9754428863525391,
+        1.1246631145477295
+      ],
+      "latency_ms": 17.45,
+      "hit_at_1": true,
+      "hit_at_3": true
+    },
+    {
+      "question": "Why is chunking important?",
+      "expected_sources": [
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        0.7370918989181519,
+        1.3899935483932495,
+        1.4949196577072144
+      ],
+      "latency_ms": 16.21,
+      "hit_at_1": true,
+      "hit_at_3": true
+    },
+    {
+      "question": "How does a vector database work?",
+      "expected_sources": [
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        0.800605297088623,
+        0.8431128263473511,
+        1.2015668153762817
+      ],
+      "latency_ms": 17.21,
+      "hit_at_1": true,
+      "hit_at_3": true
+    },
+    {
+      "question": "How can RAG reduce cost?",
+      "expected_sources": [
+        "rag_guide.txt"
+      ],
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "distances": [
+        0.8028465509414673,
+        1.0411317348480225,
+        1.1916316747665405
+      ],
+      "latency_ms": 16.61,
+      "hit_at_1": true,
+      "hit_at_3": true
+    }
+  ]
+}

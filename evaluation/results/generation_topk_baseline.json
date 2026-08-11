@@ -1,0 +1,317 @@
+{
+  "summary": {
+    "1": {
+      "questions": 6,
+      "average_prompt_tokens": 216.33,
+      "average_completion_tokens": 33.17,
+      "average_total_tokens": 249.5,
+      "average_generation_latency_ms": 949.77,
+      "average_total_latency_ms": 1008.87,
+      "total_cost_usd": 0.0
+    },
+    "2": {
+      "questions": 6,
+      "average_prompt_tokens": 307.5,
+      "average_completion_tokens": 31.33,
+      "average_total_tokens": 338.83,
+      "average_generation_latency_ms": 717.79,
+      "average_total_latency_ms": 730.82,
+      "total_cost_usd": 0.0
+    },
+    "3": {
+      "questions": 6,
+      "average_prompt_tokens": 373.17,
+      "average_completion_tokens": 33.67,
+      "average_total_tokens": 406.83,
+      "average_generation_latency_ms": 731.45,
+      "average_total_latency_ms": 744.14,
+      "total_cost_usd": 0.0
+    }
+  },
+  "results": [
+    {
+      "question": "What is RAG?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "sample.txt"
+      ],
+      "prompt_tokens": 205,
+      "completion_tokens": 9,
+      "total_tokens": 214,
+      "retrieval_latency_ms": 139.42,
+      "generation_latency_ms": 952.61,
+      "total_latency_ms": 1092.03,
+      "cost_usd": 0.0,
+      "answer": "Retrieval Augmented Generation"
+    },
+    {
+      "question": "What are the main stages of a RAG system?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "sample.txt"
+      ],
+      "prompt_tokens": 212,
+      "completion_tokens": 23,
+      "total_tokens": 235,
+      "retrieval_latency_ms": 108.13,
+      "generation_latency_ms": 597.92,
+      "total_latency_ms": 706.05,
+      "cost_usd": 0.0,
+      "answer": "document ingestion, chunking, embedding generation, vector storage, retrieval, and answer generation"
+    },
+    {
+      "question": "What are embeddings?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 223,
+      "completion_tokens": 39,
+      "total_tokens": 262,
+      "retrieval_latency_ms": 22.89,
+      "generation_latency_ms": 864.74,
+      "total_latency_ms": 887.63,
+      "cost_usd": 0.0,
+      "answer": "An embedding model converts text into numerical vectors. Texts with similar meanings tend to have vectors that are close to each other in the embedding space."
+    },
+    {
+      "question": "Why is chunking important?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 222,
+      "completion_tokens": 65,
+      "total_tokens": 287,
+      "retrieval_latency_ms": 29.86,
+      "generation_latency_ms": 1599.61,
+      "total_latency_ms": 1629.47,
+      "cost_usd": 0.0,
+      "answer": "The ingestion process loads the available documents and prepares them for further processing. Chunking Large documents are divided into smaller pieces called chunks. Chunking makes retrieval more precise because the system can retrieve only the portions of a document that are relevant to a user's question. Embe"
+    },
+    {
+      "question": "How does a vector database work?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 225,
+      "completion_tokens": 54,
+      "total_tokens": 279,
+      "retrieval_latency_ms": 32.05,
+      "generation_latency_ms": 1416.94,
+      "total_latency_ms": 1448.99,
+      "cost_usd": 0.0,
+      "answer": "A vector database allows the system to efficiently search for documents that are semantically similar to a query. Retrieval When a user asks a question, the question is converted into an embedding using the same embedding model."
+    },
+    {
+      "question": "How can RAG reduce cost?",
+      "top_k": 1,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 211,
+      "completion_tokens": 9,
+      "total_tokens": 220,
+      "retrieval_latency_ms": 22.24,
+      "generation_latency_ms": 266.81,
+      "total_latency_ms": 289.05,
+      "cost_usd": 0.0,
+      "answer": "Grounding answers in retrieved information"
+    },
+    {
+      "question": "What is RAG?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 321,
+      "completion_tokens": 15,
+      "total_tokens": 336,
+      "retrieval_latency_ms": 14.08,
+      "generation_latency_ms": 407.17,
+      "total_latency_ms": 421.25,
+      "cost_usd": 0.0,
+      "answer": "a technique that combines information retrieval with language generation."
+    },
+    {
+      "question": "What are the main stages of a RAG system?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 320,
+      "completion_tokens": 23,
+      "total_tokens": 343,
+      "retrieval_latency_ms": 14.4,
+      "generation_latency_ms": 575.66,
+      "total_latency_ms": 590.06,
+      "cost_usd": 0.0,
+      "answer": "document ingestion, chunking, embedding generation, vector storage, retrieval, and answer generation"
+    },
+    {
+      "question": "What are embeddings?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 344,
+      "completion_tokens": 26,
+      "total_tokens": 370,
+      "retrieval_latency_ms": 12.57,
+      "generation_latency_ms": 651.27,
+      "total_latency_ms": 663.84,
+      "cost_usd": 0.0,
+      "answer": "Texts with similar meanings tend to have vectors that are close to each other in the embedding space."
+    },
+    {
+      "question": "Why is chunking important?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 222,
+      "completion_tokens": 65,
+      "total_tokens": 287,
+      "retrieval_latency_ms": 12.97,
+      "generation_latency_ms": 1303.5,
+      "total_latency_ms": 1316.47,
+      "cost_usd": 0.0,
+      "answer": "The ingestion process loads the available documents and prepares them for further processing. Chunking Large documents are divided into smaller pieces called chunks. Chunking makes retrieval more precise because the system can retrieve only the portions of a document that are relevant to a user's question. Embe"
+    },
+    {
+      "question": "How does a vector database work?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 323,
+      "completion_tokens": 54,
+      "total_tokens": 377,
+      "retrieval_latency_ms": 12.14,
+      "generation_latency_ms": 1170.32,
+      "total_latency_ms": 1182.46,
+      "cost_usd": 0.0,
+      "answer": "A vector database allows the system to efficiently search for documents that are semantically similar to a query. Retrieval When a user asks a question, the question is converted into an embedding using the same embedding model."
+    },
+    {
+      "question": "How can RAG reduce cost?",
+      "top_k": 2,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "sample.txt"
+      ],
+      "prompt_tokens": 315,
+      "completion_tokens": 5,
+      "total_tokens": 320,
+      "retrieval_latency_ms": 12.01,
+      "generation_latency_ms": 198.81,
+      "total_latency_ms": 210.82,
+      "cost_usd": 0.0,
+      "answer": "Answering questions"
+    },
+    {
+      "question": "What is RAG?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 429,
+      "completion_tokens": 29,
+      "total_tokens": 458,
+      "retrieval_latency_ms": 15.16,
+      "generation_latency_ms": 744.66,
+      "total_latency_ms": 759.82,
+      "cost_usd": 0.0,
+      "answer": "A cost-efficient RAG system attempts to reduce the computational and API cost of answering questions while maintaining good retrieval and answer quality."
+    },
+    {
+      "question": "What are the main stages of a RAG system?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "sample.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 436,
+      "completion_tokens": 23,
+      "total_tokens": 459,
+      "retrieval_latency_ms": 13.45,
+      "generation_latency_ms": 552.72,
+      "total_latency_ms": 566.17,
+      "cost_usd": 0.0,
+      "answer": "document ingestion, chunking, embedding generation, vector storage, retrieval, and answer generation"
+    },
+    {
+      "question": "What are embeddings?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 429,
+      "completion_tokens": 26,
+      "total_tokens": 455,
+      "retrieval_latency_ms": 13.01,
+      "generation_latency_ms": 604.77,
+      "total_latency_ms": 617.78,
+      "cost_usd": 0.0,
+      "answer": "Texts with similar meanings tend to have vectors that are close to each other in the embedding space."
+    },
+    {
+      "question": "Why is chunking important?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 222,
+      "completion_tokens": 65,
+      "total_tokens": 287,
+      "retrieval_latency_ms": 12.68,
+      "generation_latency_ms": 1216.01,
+      "total_latency_ms": 1228.69,
+      "cost_usd": 0.0,
+      "answer": "The ingestion process loads the available documents and prepares them for further processing. Chunking Large documents are divided into smaller pieces called chunks. Chunking makes retrieval more precise because the system can retrieve only the portions of a document that are relevant to a user's question. Embe"
+    },
+    {
+      "question": "How does a vector database work?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 323,
+      "completion_tokens": 54,
+      "total_tokens": 377,
+      "retrieval_latency_ms": 10.81,
+      "generation_latency_ms": 1057.25,
+      "total_latency_ms": 1068.06,
+      "cost_usd": 0.0,
+      "answer": "A vector database allows the system to efficiently search for documents that are semantically similar to a query. Retrieval When a user asks a question, the question is converted into an embedding using the same embedding model."
+    },
+    {
+      "question": "How can RAG reduce cost?",
+      "top_k": 3,
+      "retrieved_sources": [
+        "rag_guide.txt",
+        "sample.txt",
+        "rag_guide.txt"
+      ],
+      "prompt_tokens": 400,
+      "completion_tokens": 5,
+      "total_tokens": 405,
+      "retrieval_latency_ms": 11.08,
+      "generation_latency_ms": 213.27,
+      "total_latency_ms": 224.35,
+      "cost_usd": 0.0,
+      "answer": "Answering questions"
+    }
+  ]
+}
